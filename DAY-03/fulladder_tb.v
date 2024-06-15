@@ -6,11 +6,11 @@ wire sum,carry;
 
 
 fulladder uut(.a(a),
-		           .b(b),
-			          .c(c),
-		          	.sum(sum),
-		           	.carry(carry)
-		          	);
+		      .b(b),
+			     .c(c),
+		      .sum(sum),
+		      .carry(carry)
+		     );
 
 initial begin
 a=0; b=0; c=0;
