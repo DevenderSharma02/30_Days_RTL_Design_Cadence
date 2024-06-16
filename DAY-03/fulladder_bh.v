@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module fulladder(sum,carry,a,b,c);
+module fulladder(a,b,c,sum,carry);
 input a,b,c;
 output reg sum,carry;
 
