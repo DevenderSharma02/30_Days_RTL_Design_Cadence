@@ -9,11 +9,9 @@ wire y;
 mux_4x1 dut(.in(in),.sel(sel),.y(y));
 
 initial begin
-
 in = 0;
 sel = 0;
-
-
+  
 repeat (10) begin
 in = $random;
 sel = $random;
