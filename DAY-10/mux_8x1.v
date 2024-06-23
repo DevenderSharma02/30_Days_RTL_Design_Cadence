@@ -1,6 +1,6 @@
+`timescale 1ns / 1ps
+
 module mux_8x1(y,in,sel);
-
-
 input [7:0]in;
 input [2:0]sel;
 output reg y;
