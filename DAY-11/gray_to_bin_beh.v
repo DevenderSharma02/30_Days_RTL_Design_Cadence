@@ -1,0 +1,14 @@
+`timescale 1ns / 1ps
+
+module gray_2_binary_conveter(binary,gray);
+
+input [3:0]gray;
+output reg [3:0]binary;
+
+always @(gray) begin
+assign binary[3] = gray[3];
+assign binary[2] = binary[3] ^ gray[2];
+assign binary[1] = binary[2] ^ gray[1];
+assign binary[0] = binary[1] ^ gray[0];
+end
+endmodule
