@@ -12,12 +12,8 @@ four_bit_carryahead_adder UUT(
 				.Cout(Cout),
 				.Sum(Sum)
 			       );
-
-
 initial begin
-
 repeat (10) begin
-
 A= $random;
 B= $random;
 Cin= $random;
