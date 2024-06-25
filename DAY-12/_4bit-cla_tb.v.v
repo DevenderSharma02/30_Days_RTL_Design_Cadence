@@ -1,4 +1,4 @@
-module tb();
+module four_bit_cla_tb();
 
 reg [3:0] A,B;
 reg Cin;
