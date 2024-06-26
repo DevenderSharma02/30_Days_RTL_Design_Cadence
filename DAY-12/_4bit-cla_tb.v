@@ -1,4 +1,6 @@
-module tb();
+`timescale 1ns / 1ps
+
+module four_bit_cla_tb();
 
 reg [3:0] A,B;
 reg Cin;
