@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module demux_1x4_tb(sel,data,y);
+module demux_1x4(sel,data,y);
   
 input data;
 input [1:0] sel;
