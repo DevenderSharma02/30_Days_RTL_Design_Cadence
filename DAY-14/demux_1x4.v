@@ -1,3 +1,5 @@
+`timescale 1ns / 1ps
+
 module demux_1x4(data,sel,y);
 input data;
 input [1:0]sel;
