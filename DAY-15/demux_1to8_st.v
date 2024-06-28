@@ -7,17 +7,19 @@ output [7:0] y;
 
 wire w0,w1,w2;
 
-  not g1(w0,sel[0]);
+  not g1(w2,sel[2]);
   not g2(w1,sel[1]);
-  not g3(w2,sel[2]);
+  not g3(w0,sel[0]);
 
-  and g4(y[0],w0,w1,w2,data);
-  and g5(y[1],w0,w1,sel[2],data);
-  and g6(y[2],w0,sel[1],w2,data);
-  and g7(y[3],w0,sel[1],sel[2],data);
-  and g8(y[4],sel[0],w1,w2,data);
-  and g9(y[5],sel[0],w1,sel[2],data);
-  and g10(y[6],sel[0],sel[1],w2,data);
-  and g11(y[7],sel[0],sel[1],sel[2],data);
+
+  and g4(y[0],w2,w1,w0,data);
+  and g5(y[1],w2,w1,sel[0],data);
+  and g6(y[2],w2,sel[1],w0,data);
+  and g7(y[3],w2,sel[1],sel[0],data);
+  and g8(y[4],sel[2],w1,w0,data);
+  and g9(y[5],sel[2],w1,sel[0],data);
+  and g10(y[6],sel[2],sel[1],w0,data);
+  and g11(y[7],sel[2],sel[1],sel[0],data);
+  
   
 endmodule
