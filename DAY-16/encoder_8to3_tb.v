@@ -1,3 +1,5 @@
+`timescale 1ns / 1ps
+
 module encoder_8to3_tb();
     reg en;
     reg [7:0] in;
