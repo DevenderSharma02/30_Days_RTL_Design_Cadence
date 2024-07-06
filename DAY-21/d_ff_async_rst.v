@@ -1,3 +1,5 @@
+`timescale 1ns / 1ps
+
 module d_ff_async_reset(clk,rst_n,d,q);
 input clk,rst_n;
 input d;
