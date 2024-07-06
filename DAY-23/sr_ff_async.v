@@ -1,3 +1,5 @@
+`timescale 1ns / 1ps
+
 module sr_flipflop_async(clk,rst,s,r,q,q_bar);
 
 input clk,rst;
