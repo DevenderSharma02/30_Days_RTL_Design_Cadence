@@ -1,3 +1,5 @@
+`timescale 1ns / 1ps
+
 module sr_ff_async_tb();
 
 reg clk,rst;
