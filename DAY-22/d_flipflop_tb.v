@@ -1,3 +1,5 @@
+`timescale 1ns / 1ps
+
 module d_ff_tb();
 
 reg clk,rst_n;
