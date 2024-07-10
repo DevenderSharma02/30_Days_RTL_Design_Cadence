@@ -24,11 +24,8 @@ module async_up_counter_tb();
         #10;
         reset = 0;
         #10;
-
         
         #200;  
-
-      
         $finish;
     end
 
